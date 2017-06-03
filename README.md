@@ -1,11 +1,15 @@
 this is the fiirst revision 
 
 
-jdkfjdkf       
-
-sjdksjkdskdjksjdkcsdjkcscs
+this is the first tentative project using R, and this file will be used to test the git comman optionally. 
 
 
-data are in data/directory
 
- we have met the data in my files
+git log 
+git status 
+git clone 
+git clone 
+git add 
+git checkout 
+git push 
+git commit -m "commit some new data in my repository"
