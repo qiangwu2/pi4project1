@@ -1,0 +1,31 @@
+---
+title: "testdatta"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(utils)
+data1 <- read.table("data/WeatherCEN_DayAvg.dat",fill= TRUE, header=FALSE,sep=',')
+data1
+
+write.table(data1,file='data1.csv')
+
+
+
+data2 <- read.table("data/WeatherNE_DayAvg.dat",fill= TRUE, header=FALSE,sep=',')
+data2
+
+write.table(data2,file='data2.csv')
+
+
+data3 <- read.table("data/WeatherSE_DayAvg.dat",fill= TRUE, header=FALSE,sep=',')
+data3
+
+write.table(data3,file='data3.csv')
+
+
+```
